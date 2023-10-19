@@ -1,1 +1,1 @@
-# Capstone_djangp
+# Capstone_django
