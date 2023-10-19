@@ -9,22 +9,33 @@ from django.contrib.auth.forms import UserCreationForm as UserRegistrationForm
 
 
 def post(request, *args, **kwargs):
-
+    """
+    Python program to display the post webpage
+    """
     return render(request, "post.html")
 
 def blogpost(req):
-
+    """
+    Python program to display the blogpost webpage
+    """
     return render(req, "blogpost.html")
 
 def payment(req):
-
+    """
+    Python program to display the payment webpage
+    """
     return render(req,"paymentsite.html")
 
 def member(req):
-
+    """
+    Python program to display the membership webpage
+    """
     return render(req, "membership.html")
 
 def home(req):
+    """
+    Python program to display the home webpage
+    """
     return render(req, 'home.html')
 
 def register(request):
@@ -42,4 +53,7 @@ def register(request):
     return render(request, 'blogpost/register.html', context)
 
 def logout_user(req):
+    """
+    Python program to display the logout webpage
+    """
     return render(req, 'logout.html')
